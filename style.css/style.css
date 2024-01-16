@@ -2,14 +2,83 @@
     font-family: 'Mulish', sans-serif;
 }
 
+/* This is nav section start */
+header{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.nav-section{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    text-align: center;
+}
+
+.nav-image{
+    display: flex;
+    align-items: center;
+}
+
+.image-1{
+    width: 48px;
+    height: 56px;
+}
+
+.nav-text{
+    font-size: 36px;
+    font-family: 'Mulish';
+    font-weight: 800;
+    padding: 0 100px;
+    padding-left: 15px;
+}
+
+ul{
+    float: right;
+    margin-right: 20px;
+}
+
+ul li{
+    display: inline-block;
+    margin: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+.link-1{
+    color: #FF5400;
+    font-size: 18px;
+    font-family: 'Mulish';
+    font-weight: 700;
+}
+
+.link{
+    color: #424247;
+    font-size: 18px;
+    font-family: 'Mulish';
+    font-weight: 400;
+}
+/* This is nav section End */
+
 /* This is Explore Banner Section Start */
-/* .explore-ravel{
+
+section{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+
+.explore-ravel{
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), url(../Images/group-1.png);
     background-repeat: no-repeat;
-    max-width: 1170px;
-    height: 490px;
+    max-width: 100%;
+    height: auto;
     background-size: cover;
-    margin: 0 auto;
+    margin: 150px auto 0;
     text-align: center;
     border-radius: 16px;
 }
@@ -62,20 +131,24 @@
 
 /* This is Our Popular Tours Section Start */
 
-.popular-tours{
-    max-width: 1440px;
-    background: #FFF;
+.section-3{
+    max-width: 1170;
     margin: 0 auto;
+}
+
+.popular-tours{
     display: flex;
+    justify-content: center;
+    grid-area: 24px;
 }
 
 .our-popular p li{
+    max-width: 557px;
     color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
     font-style: normal;
     font-family: 'Mulish';
     font-weight: 400;
-
 }
 
 .our-popular li{
@@ -84,7 +157,7 @@
 
 .paragraph, .list-item, .commodo{
     line-height: 24px;
-    margin: 20px 0;
+    margin: 20px;
 }
 
 .journey{
@@ -92,7 +165,6 @@
     font-size: 40px;
     font-family: 'Mulish';
     font-weight: 800;
-
 }
 
 .bttn-primary{
@@ -106,11 +178,17 @@
     font-weight: 800;
     background: #FF5400;
 }
+
+.right-image{
+    max-width: 557px;
+    height: auto;
+}
+
 /* This is Our Popular Tours Section End  */
 
 /* This is Choose Your Destination Section Start */
 .choose-destination{
-    max-width: 1440px;
+    max-width: 1170px;
     margin: 80px auto 0;
 }
 
@@ -136,68 +214,55 @@
 }
 
 .first-section{
-    max-width: 1166px;
+    max-width: 1170px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    gap: 20px;
+    gap: 24px;
 }
 
 .maldives{
     background-image: url(../Images/rectangle-3.png);
+    fill: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%);
     background-repeat: no-repeat;
-    width: 573px;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #FFF;
-    font-size: 28px;
-    font-family: 'Mulish';
-    font-weight: 800;
-    font-style: normal;
+    width: 100%;
+    height: 100%;
     background-size: cover;
     border-radius: 18px;
 }
 
 .indonesia{
     background-image: url(../Images/rectangle-4.png);
+    fill: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%);
+    width: 100%;
+    height: 100%;
     background-repeat: no-repeat;
-    width: 573px;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #FFF;
-    font-size: 28px;
-    font-family: 'Mulish';
-    font-weight: 800;
-    font-style: normal;
     background-size: cover;
     border-radius: 18px;
 }
 
+.heading{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Mulish';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    padding: 110px;
+}
+
 .section-2{
-    max-width: 1440px;
+    max-width: 1170px;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     padding-top: 20px;
-    gap: 20px;
+    gap: 24px;
 }
 
 .srilanka{
     background-image: url(../Images/rectangle-5.png);
     background-repeat: no-repeat;
-    width: 374px;
+    width: 35%;
     height: 286px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #FFF;
-    font-size: 28px;
-    font-family: 'Mulish';
-    font-weight: 800;
-    font-style: normal;
     background-size: cover;
     border-radius: 18px;
 }
@@ -205,16 +270,8 @@
 .america{
     background-image: url(../Images/rectangle-6.png);
     background-repeat: no-repeat;
-    width: 474px;
+    width: 40%;
     height: 286px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #FFF;
-    font-size: 28px;
-    font-family: 'Mulish';
-    font-weight: 800;
-    font-style: normal;
     background-size: cover;
     border-radius: 18px;
 }
@@ -222,33 +279,52 @@
 .kashmir{
     background-image: url(../Images/rectangle-7.png);
     background-repeat: no-repeat;
-    width: 274px;
+    width: 25%;
     height: 286px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #FFF;
-    font-size: 28px;
-    font-family: 'Mulish';
-    font-weight: 800;
-    font-style: normal;
     background-size: cover;
     border-radius: 18px;
 }
-/* This is Choose Your Destination Section End */
 
-
-
-.footer-section{
+.section-3{
+    max-width: 1170px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    gap: 24px;
+}
+
+.bangladesh{
+    background-image: url(../Images/rectangle-8.png);
+    background-repeat: no-repeat;
+    width: 45%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 18px;
+}
+
+.bandarban{
+    background-image: url(../Images/rectangle-9.png);
+    background-repeat: no-repeat;
+    width: 55%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 18px;
 }
 
 
+/* This is Choose Your Destination Section End */
+
+/* .footer-section{
+    max-width: 1440px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+} */
 
 /* This is responsive Start */
+
+
 @media screen and (max-width: 600px){
     .popular-tours, .first-section{
         flex-direction: column;
@@ -266,6 +342,7 @@
         background-size: cover;
         width: 335px;
     }
+
 }
 
 
