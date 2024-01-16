@@ -70,12 +70,10 @@ ul li a{
 /* This is nav section End */
 
 /* This is Explore Banner Section Start */
-
 section{
     max-width: 1170px;
     margin: 0 auto;
 }
-
 
 .explore-ravel{
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), url(../Images/group-1.png);
@@ -130,12 +128,10 @@ section{
     font-family: ;
     font-weight: 700;
 } */
-
 /* This is Explore Banner Section End */
 
 
 /* This is Our Popular Tours Section Start */
-
 .section-3{
     max-width: 1170;
     margin: 100px auto 0;
@@ -187,7 +183,6 @@ section{
     font-weight: 800;
     background: #FF5400;
 }
-
 /* This is Our Popular Tours Section End  */
 
 /* This is Choose Your Destination Section Start */
@@ -238,7 +233,7 @@ section{
     background-image: url(../Images/rectangle-4.png);
     fill: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%);
     width: 100%;
-    height: 100%;
+    height: auto;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 18px;
@@ -269,7 +264,7 @@ section{
     background-image: url(../Images/rectangle-5.png);
     background-repeat: no-repeat;
     width: 35%;
-    height: 286px;
+    height: auto;
     background-size: cover;
     border-radius: 18px;
 }
@@ -278,7 +273,7 @@ section{
     background-image: url(../Images/rectangle-6.png);
     background-repeat: no-repeat;
     width: 40%;
-    height: 286px;
+    height: auto;
     background-size: cover;
     border-radius: 18px;
 }
@@ -287,7 +282,7 @@ section{
     background-image: url(../Images/rectangle-7.png);
     background-repeat: no-repeat;
     width: 25%;
-    height: 286px;
+    height: auto;
     background-size: cover;
     border-radius: 18px;
 }
@@ -304,7 +299,7 @@ section{
     background-image: url(../Images/rectangle-8.png);
     background-repeat: no-repeat;
     width: 45%;
-    height: 100%;
+    height: auto;
     background-size: cover;
     border-radius: 18px;
 }
@@ -313,14 +308,53 @@ section{
     background-image: url(../Images/rectangle-9.png);
     background-repeat: no-repeat;
     width: 55%;
-    height: 100%;
+    height: auto;
     background-size: cover;
     border-radius: 18px;
 }
 /* This is Choose Your Destination Section End */
 
-/* This is Choose Your Destination Section Start */
 
+/* This is Bonous Section Start */
+.winter-vacation{
+    max-width: 1170px;
+    margin: 100px auto 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.winter-heading{
+    font-size: 4rem;
+    font-weight: 800;
+    font-family: 'Mulish';
+    line-height: normal;
+    text-align: center;
+    font-style: normal;
+    color: #131318;
+}
+
+.winter-description{
+    font-size: 1rem;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #424247;
+    align-items: center;
+}
+
+.winter-vacation img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 16px;
+}
+/* This is Bonous Section End */
+
+
+/* This is Why Choose Us Section Start */
 .section-4{
     max-width: 1170px;
     margin: 100px auto 0;
@@ -398,7 +432,7 @@ section{
 .description-setting{
     margin: 20px 266px 0;
 }
-/* This is Choose Your Destination Section End */
+/* This is Why Choose Us Section End */
 
 /* This is Newsletter Section Start */
 .section-5{
@@ -409,7 +443,7 @@ section{
 }
 
 .newspaper-setting{
-    width: 1440px;
+    width: 100%;
     height: 100%;
     background: #FFF;
     padding: 0 40px;
@@ -443,8 +477,8 @@ section{
 }
 
 .input-text{
-    width: 100%;
-    height: 45px;
+    width: 50%;
+    height: auto;
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
     border: none;
@@ -467,24 +501,23 @@ section{
 
 .image-setting{
     background-image: url(../Images/rectangle-13.png);
-    width: 175%;
-    height: 442px;
+    width: 100%;
+    height: auto;
     border-radius: 16px;
     background-size: cover;
-    margin: 0 28px;
     position: relative;
 }
 
 .color{
     background-color: #FF5400;
-    width: 324px;
-    height: 120px;
+    width: 50%;
+    height: auto;
     border-radius: 16px;
     transform: rotate(-19.628deg);
     position: absolute;
-    bottom: 20px;
-    right: 10px;
-    top: 270px;
+    bottom: 35px;
+    right: 6px;
+    top: 280px;
 }
 
 .saveup{
@@ -522,10 +555,6 @@ footer{
     text-align: center;
 }
 
-.images-1{
-
-}
-
 .fa-brands{
     margin: 10px;
 }
@@ -546,15 +575,27 @@ footer{
     padding: 50px 340px 150px;
 }
 
+.checkbtn{
+        display: none;
+}
 /* This is Footer Section End */
 
 
+
 /* This is responsive Start */
-
-
 @media screen and (max-width: 992px){
+
+    .checkbtn{
+        display: block;
+    }
+
+    .fa-bars{
+        font-size: 32px;
+        color: black;
+    }
+
     .popular-tours, .handpicked-hotels, .first-section,
-    .section-2, .section-3{
+    .section-2, .section-3, ul{
         flex-direction: column;
     }
 
@@ -568,6 +609,8 @@ footer{
 
     .right-image{
         margin-top: 40px;
+        width: 100%;
+        height: auto;
     }
 
     .srilanka, .america, .heading, .kashmir, .bandarban, .bangladesh{
@@ -580,7 +623,6 @@ footer{
 @media screen and (max-width: 600px){
     .popular-tours, .first-section{
         flex-direction: column;
-        margin: 20px;
         align-items: center;
         background-size: cover;
     }
@@ -589,10 +631,10 @@ footer{
     }
     .section-2{
         flex-direction: column;
-        margin: 20px;
         align-items: center;
         background-size: cover;
-        width: 335px;
+        width: 100%;
+        height: auto;
     }
     .handpicked-hotels, .section-5{
         flex-direction: column;
@@ -611,10 +653,22 @@ footer{
         padding: 0px 170px;
         line-height: 0;
     }
+
     .section-3{
         flex-direction: column;
-        width: 280vh;
-        height: 150vh;
+        width: 100%;
+        height: auto;
+    }
+    .section-5{
+        width: 100%;
+        height: auto;
+    }
+    .maldives, .indonesia, .srilanka, .america, .kashmir, .bangladesh, .bandarban{
+        display: flex;
+    }
+    .srilanka, .america, .kashmir{
+        width: 100%;
+        height: auto;
     }
 }
 
