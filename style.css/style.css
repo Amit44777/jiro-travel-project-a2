@@ -42,7 +42,6 @@ ul{
 
 ul li{
     display: inline-block;
-    margin: 20px;
 }
 
 ul li a{
@@ -68,7 +67,7 @@ ul li a{
 
 section{
     max-width: 1170px;
-    margin: 0 auto;
+    margin: 100px auto 0;
 }
 
 
@@ -88,7 +87,7 @@ section{
     font-family: 'Mulish';
     font-size: 4rem;
     font-weight: 800;
-    line-height: 0;
+    line-height: normal;
     padding: 140px 0 0;
 }
 
@@ -133,7 +132,7 @@ section{
 
 .section-3{
     max-width: 1170;
-    margin: 0 auto;
+    margin: 100px auto 0;
 }
 
 .popular-tours{
@@ -189,7 +188,7 @@ section{
 /* This is Choose Your Destination Section Start */
 .choose-destination{
     max-width: 1170px;
-    margin: 80px auto 0;
+    margin: 100px auto 0;
 }
 
 .header{
@@ -310,20 +309,231 @@ section{
     background-size: cover;
     border-radius: 18px;
 }
-
-
 /* This is Choose Your Destination Section End */
 
-/* .footer-section{
-    max-width: 1440px;
-    height: auto;
-    margin: 0 auto;
+/* This is Choose Your Destination Section Start */
+
+.section-4{
+    max-width: 1170px;
+    margin: 100px auto 0;
+}
+
+.why-choose{
+     text-align: center;
+}
+
+.choose-us{
+    color: #131318;
+    text-align: center;
+    font-family: 'Mulish';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.happy-tandering{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-style: 16px;
+    font-weight: 400;
+    font-family: 'Mulish';
+    line-height: 26px;
+}
+
+.handpicked-hotels{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.description{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+}
+
+.image-png{
+    width: 64px;
+    height: 64px;
+}
+
+.handpicked{
+    color: #131318;
+    font-family: 'Mulish';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.journey-2{
+    width: 486px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.part-1{
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.part-2{
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.description-setting{
+    margin: 20px 266px 0;
+}
+/* This is Choose Your Destination Section End */
+
+/* This is Newsletter Section Start */
+.section-5{
+    max-width: 1170px;
+    display: flex;
+    gap: 20px;
+}
+
+.newspaper-setting{
+    width: 1440px;
+    height: 100%;
+    background: #FFF;
+}
+
+.newaletter{
+    color: #131318;
+    font-family: 'Mulish';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: 40px;
+}
+
+.travel{
+    color: #5A5A5D;
+    font-family: 'Mulish';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 40px;
+}
+
+.input-text{
+    width: 370px;
+    height: 45px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    margin: 24px 40px 0px 40px;
+}
+
+.button-setting{
+    width: 380px;
+    height: 48px;
+    background-color: #FF5400;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Mulish';
+    font-weight: 800;
+    border: none;
+    margin: 12px 17px 20px;
+    margin: 35px;
+}
+
+.image-setting{
+    background-image: url(../Images/rectangle-13.png);
+    width: 175%;
+    height: 442px;
+    border-radius: 16px;
+    background-size: cover;
+    margin: 0 28px;
+    position: relative;
+}
+
+.color{
+    background-color: #FF5400;
+    width: 324px;
+    height: 120px;
+    border-radius: 16px;
+    transform: rotate(-19.628deg);
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    top: 270px;
+}
+
+.saveup{
+    color: #FFFf;
+    font-size: 24px;
+    font-family: 'Mulish';
+    font-weight: 400;
+    line-height: 1;
+    align-items: center;
     display: flex;
     justify-content: center;
-} */
+    text-align: center;
+}
+
+.saveup-1{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 800;
+    font-family: 'Mulish';
+    line-height: 2;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+/* This is Newsletter Section End */
+
+/* This is Footer Section Start */
+footer{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.footer-section{
+    text-align: center;
+}
+
+.images-1{
+
+}
+
+.fa-brands{
+    margin: 10px;
+}
+
+.watercolours{
+    padding: 10px 270px 25px;
+}
+
+.nav-texts{
+    padding: 32px 340px 0px;
+}
+
+.icons{
+    padding: 0px 340px 50px;
+}
+
+.copyright{
+    padding: 50px 340px 150px;
+}
+
+/* This is Footer Section End */
+
 
 /* This is responsive Start */
-
 
 @media screen and (max-width: 600px){
     .popular-tours, .first-section{
@@ -342,7 +552,30 @@ section{
         background-size: cover;
         width: 335px;
     }
-
+    .handpicked-hotels, .section-5{
+        flex-direction: column;
+    }
+    .description-setting{
+        margin: 10px;
+    }
+    .image-setting{
+        width: 108%;
+    }
+    .newspaper-setting{
+        width: 375px;
+        height: 7429px;
+    }
+    .input-type{
+        padding: 0px 170px;
+        line-height: 0;
+    }
+    .section-3{
+        flex-direction: column;
+        width: 280vh;
+        height: 150vh;
+    }
+    
+    
 }
 
 
