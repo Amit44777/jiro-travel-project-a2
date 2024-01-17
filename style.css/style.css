@@ -443,12 +443,10 @@ section{
 }
 
 .newspaper-setting{
-    width: 100%;
-    height: 100%;
-    background: #FFF;
     padding: 0 40px;
     border: 1px solid #FF5400;
     border-radius: 16px;
+    flex: 1;
 }
 
 .newaletter{
@@ -477,8 +475,8 @@ section{
 }
 
 .input-text{
-    width: 50%;
-    height: auto;
+    width: 100%;
+    height: 50px;
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
     border: none;
@@ -486,8 +484,6 @@ section{
 }
 
 .button-setting{
-    width: 380px;
-    height: 48px;
     background-color: #FF5400;
     border-radius: 8px;
     color: #fff;
@@ -495,29 +491,31 @@ section{
     font-family: 'Mulish';
     font-weight: 800;
     border: none;
-    margin: 12px 17px 20px;
-    margin: 35px;
+    width: 100%;
+    height: 50px;
 }
 
 .image-setting{
     background-image: url(../Images/rectangle-13.png);
     width: 100%;
-    height: auto;
     border-radius: 16px;
     background-size: cover;
     position: relative;
+    height: 400px;
+    flex: 1;
 }
+
+
 
 .color{
     background-color: #FF5400;
     width: 50%;
-    height: auto;
+    height: 110px;
     border-radius: 16px;
     transform: rotate(-19.628deg);
     position: absolute;
-    bottom: 35px;
-    right: 6px;
-    top: 280px;
+    right: 7px;
+    top: 250px;
 }
 
 .saveup{
@@ -530,7 +528,8 @@ section{
     display: flex;
     justify-content: center;
     text-align: center;
-    padding-top: 20px;}
+    padding-top: 20px;
+}
 
 .saveup-1{
     color: #fff;
@@ -553,6 +552,14 @@ footer{
 
 .footer-section{
     text-align: center;
+}
+
+.nav-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
 }
 
 .fa-brands{
@@ -585,6 +592,14 @@ footer{
 /* This is responsive Start */
 @media screen and (max-width: 992px){
 
+    .section-5{
+        flex-direction: column;
+    }
+    
+    .newspaper-setting, .image-setting{
+        flex: none;
+    }
+
     .checkbtn{
         display: block;
     }
@@ -612,9 +627,22 @@ footer{
         width: 100%;
         height: auto;
     }
-
-    .srilanka, .america, .heading, .kashmir, .bandarban, .bangladesh{
+    .maldives, .indonesia, .srilanka, .america, .kashmir, .bangladesh, .bandarban{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
         width: 100%;
+        height: auto;
+        background-size: cover;
+    }
+    .color {
+        width: 34%;
+        right: 8px;
+        top: 243px;
+    }
+    .button-setting{
+        margin-bottom: 40px;
     }
 }
 
@@ -636,18 +664,15 @@ footer{
         width: 100%;
         height: auto;
     }
-    .handpicked-hotels, .section-5{
+    .handpicked-hotels{
         flex-direction: column;
     }
     .description-setting{
         margin: 10px;
     }
-    .image-setting{
-        width: 108%;
-    }
     .newspaper-setting{
-        width: 375px;
-        height: 7429px;
+        width: 85%;
+        height: auto;
     }
     .input-type{
         padding: 0px 170px;
@@ -661,7 +686,6 @@ footer{
     }
     .section-5{
         width: 100%;
-        height: auto;
     }
     .maldives, .indonesia, .srilanka, .america, .kashmir, .bangladesh, .bandarban{
         display: flex;
@@ -670,6 +694,30 @@ footer{
         width: 100%;
         height: auto;
     }
+    .input-text {
+        width: 100%;
+        height: 50px;
+    }
+    .watercolours{
+        padding: 40px 0;
+    }
+    .nav-texts{
+        padding: 0;
+    }
+    .icons {
+        padding: 16px 0;
+    }
+    .copyright {
+        padding: 40px 0px;
+    }
+    .nav-images{
+        margin-top: 50px;
+    }
+    .color{
+        right: 7px;
+        top: 250px;
+    }
+
 }
 
 /* This is responsive End */
